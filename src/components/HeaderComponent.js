@@ -32,11 +32,11 @@ class Header extends Component {
         <Navbar id="main-nav" dark color="faded" sticky="top" expand="sm">
           <div className="container-fluid container-xl">
             <NavbarBrand>
-              <a href="#" className="navbar-brand">
-                <img src={Logo} id="logo" alt="rsc-logo" width="30" height="24" />
-              </a>
+              <img src={Logo} id="logo" alt="rsc-logo" width="30" height="24" />
             </NavbarBrand>
-            <NavbarToggler onClick={this.toggleNav} className="mr-2"> </NavbarToggler>
+            <NavbarToggler onClick={this.toggleNav} className="mr-2">
+              {" "}
+            </NavbarToggler>
 
             <Collapse isOpen={this.state.isNavOpen} navbar>
               <Nav className="mr-auto" navbar>

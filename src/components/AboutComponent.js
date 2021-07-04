@@ -1,12 +1,12 @@
 import React from "react";
 import "../css/portfolio.css";
 import Headshot from "../images/Rodrick-headshot.jpg";
-import HtmlIcon from "../images/html.svg";
-import JsIcon from "../images/js.svg";
-import CssIcon from "../images/css.svg";
-import BootstrapIcon from "../images/bootstrap.svg";
-import SassIcon from "../images/sass.svg";
-import ReactIcon from "../images/react.svg";
+import HtmlIcon from "../images/icon-html.svg";
+import JsIcon from "../images/icon-js.svg";
+import CssIcon from "../images/icon-css.svg";
+import BootstrapIcon from "../images/icon-bootstrap.svg";
+import SassIcon from "../images/icon-sass.svg";
+import ReactIcon from "../images/icon-react.svg";
 
 function AboutMe() {
 
