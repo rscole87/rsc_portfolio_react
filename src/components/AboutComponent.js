@@ -1,5 +1,4 @@
 import React from "react";
-import AOS from "aos";
 import "../css/portfolio.css";
 import Headshot from "../images/Rodrick-headshot.jpg";
 import HtmlIcon from "../images/html.svg";
