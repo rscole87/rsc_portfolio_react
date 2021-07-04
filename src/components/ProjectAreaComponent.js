@@ -4,9 +4,7 @@ import PROJECTS from "../shared/projectList";
 
 function ProjectThumb(props) {
   return (
-    <div className="project-thumb" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
-      <img src={props.image} alt={props.name} />
-    </div>
+    <div className="project-thumb" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000" style={{ backgroundImage: `url(${props.image})`}} />
   );
 }
 class ProjectArea extends Component {
