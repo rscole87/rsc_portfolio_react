@@ -1,4 +1,3 @@
-import React from "react";
 import BaseApparel from '../images/project-base-apparel.png';
 import BookmarkManager from '../images/project-bookmark-manager.png'
 import IntroComponent from '../images/project-intro-component.png'

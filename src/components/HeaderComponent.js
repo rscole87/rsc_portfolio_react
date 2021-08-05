@@ -1,7 +1,9 @@
+import { link } from "fs";
 import React, { Component } from "react";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 import FullBrand from "../images/Full_Branding_WHITE-01.svg";
 import Logo from "../images/Logo_WHITE-01.svg";
+import links from '../shared/links'
 
 class Header extends Component {
   constructor(props) {
@@ -18,7 +20,16 @@ class Header extends Component {
     });
   }
 
+  
   render() {
+    const navLinks = links.map(link => {
+      return (
+        <NavItem>
+          <a className="nav-link" href={link.url}>{link.text}</a>
+        </NavItem>
+      )
+    })
+
     return (
       <>
         <section id="header-section">
@@ -39,18 +50,8 @@ class Header extends Component {
             </NavbarToggler>
 
             <Collapse isOpen={this.state.isNavOpen} navbar>
-              <Nav className="mr-auto" navbar>
-                <NavItem>
-                  <NavLink className="nav-link">About Me</NavLink>
-                </NavItem>
-
-                <NavItem>
-                  <NavLink className="nav-link">Projects</NavLink>
-                </NavItem>
-
-                <NavItem>
-                  <NavLink className="nav-link">Contact</NavLink>
-                </NavItem>
+              <Nav className="ml-auto" navbar>
+                {navLinks}
               </Nav>
             </Collapse>
           </div>
