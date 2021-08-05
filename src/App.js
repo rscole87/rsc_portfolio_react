@@ -4,6 +4,7 @@ import "../src/css/portfolio.css";
 import Header from "./components/HeaderComponent";
 import AboutMe from "./components/AboutComponent";
 import ProjectArea from "./components/ProjectAreaComponent";
+import ContactArea from "./components/ContactComponent";
 import Footer from "./components/FooterComponent";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <AboutMe />
       <ProjectArea />
+      <ContactArea />
       <Footer />
     </>
   );

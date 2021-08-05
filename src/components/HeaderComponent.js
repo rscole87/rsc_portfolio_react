@@ -12,7 +12,16 @@ class Header extends Component {
     this.state = {
       isNavOpen: false,
     };
+
+    this.closeNav = this.closeNav.bind(this);
+    this.toggleNav = this.toggleNav.bind(this);
   }
+
+  closeNav() {
+    if (this.state.isNavOpen === true) {
+      this.toggleNav();
+    }
+  };
 
   toggleNav() {
     this.setState({
@@ -25,7 +34,7 @@ class Header extends Component {
     const navLinks = links.map(link => {
       return (
         <NavItem>
-          <a className="nav-link" href={link.url}>{link.text}</a>
+          <a className="nav-link" href={link.url} onClick={() => this.closeNav()}>{link.text}</a>
         </NavItem>
       )
     })
@@ -42,14 +51,12 @@ class Header extends Component {
 
         <Navbar id="main-nav" dark color="faded" sticky="top" expand="sm">
           <div className="container-fluid container-xl">
-            <NavbarBrand>
+            <NavbarBrand className="mr-auto">
               <img src={Logo} id="logo" alt="rsc-logo" width="30" height="24" />
             </NavbarBrand>
-            <NavbarToggler onClick={this.toggleNav} className="mr-2">
-              {" "}
-            </NavbarToggler>
+            <NavbarToggler onClick={this.toggleNav} className="mr-2"/>
 
-            <Collapse isOpen={this.state.isNavOpen} navbar>
+            <Collapse isOpen={this.state.isNavOpen} navbar className="text-center justify-content-sm-end">
               <Nav className="ml-auto" navbar>
                 {navLinks}
               </Nav>

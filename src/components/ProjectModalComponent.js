@@ -2,7 +2,6 @@ import React from "react";
 import { Modal, ModalHeader, ModalBody, Container, Row, Col } from "reactstrap";
 
 function ProjectModal(props) {
-  console.log(props.is);
   return (
     <Modal id="project-modal" isOpen={props.isModalOpen} toggle={props.toggleModal} size="xl">
       <Container>
