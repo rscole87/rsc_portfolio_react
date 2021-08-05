@@ -311,15 +311,16 @@ html {
 }
 
 /* The Close Button */
-.close {
+button.close {
+  border: none;
+  background: transparent;
   color: $lightBlue;
-  float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+button.close:hover,
+button.close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
