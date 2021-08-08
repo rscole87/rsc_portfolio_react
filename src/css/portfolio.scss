@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800isplay=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400isplay=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import "./variables";
 @import "./mixins";
 
 body {
   margin: 0px;
-  // @include raleway;
+  @include raleway;
 }
 
 html {
@@ -148,7 +149,6 @@ html {
   }
 
   .project-thumb {
-    // background-color: $lightBlue;
     border-radius: 5px;
     min-width: 300px;
     max-width: 500px;
@@ -232,7 +232,6 @@ html {
       }
 
       ::placeholder {
-        // @include montserrat;
         @include opensans;
         color: $lightBlue;
       }
@@ -276,7 +275,7 @@ html {
   padding: 20px;
   border: 1px solid $lightBlue;
   border-radius: 10px;
-  width: 95%; /* Could be more or less, depending on screen size */
+  width: 95%; 
   height: auto;
   box-shadow: 2px 2px 10px 2px #00000077;
 
