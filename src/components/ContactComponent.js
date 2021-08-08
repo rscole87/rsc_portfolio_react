@@ -1,9 +1,9 @@
 import React from "react";
 import { Container } from "reactstrap";
-import linkedInIcon from '../images/social-icon-linkedin.svg'
-import gitHubIcon from '../images/social-icon-github.svg'
-import instagramIcon from '../images/social-icon-instagram.svg'
-import twitterIcon from '../images/social-icon-twitter.svg'
+import linkedInIcon from "../images/social-icon-linkedin.svg";
+import gitHubIcon from "../images/social-icon-github.svg";
+import instagramIcon from "../images/social-icon-instagram.svg";
+import twitterIcon from "../images/social-icon-twitter.svg";
 
 function ContactArea() {
   return (
@@ -15,8 +15,9 @@ function ContactArea() {
 
         <div id="form-div">
           <form id="contact-form" className="row" name="contact-form" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact-form" />
             <div className="col-12 col-sm-6">
-              <input className="form-control" id="first-name"  name="first-name" type="text" placeholder="First Name" />
+              <input className="form-control" id="first-name" name="first-name" type="text" placeholder="First Name" />
             </div>
             <div className="col-12 col-sm-6">
               <input className="form-control" id="last-name" name="last-name" type="text" placeholder="Last Name" />
