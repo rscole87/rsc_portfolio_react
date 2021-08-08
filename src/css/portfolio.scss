@@ -5,7 +5,7 @@
 
 body {
   margin: 0px;
-  @include opensans;
+  // @include raleway;
 }
 
 html {
@@ -25,6 +25,7 @@ html {
     text-transform: uppercase;
     font-size: 0.8rem;
     letter-spacing: 0.25em;
+    padding: 0 5px;
   }
 }
 
@@ -109,7 +110,7 @@ html {
         box-shadow: 2px 2px 10px 2px #00000077;
       }
 
-      @media only screen and (max-width: 575px) {
+      @media only screen and (max-width: 768px) {
         img {
           max-width: 40%;
         }
@@ -161,7 +162,7 @@ html {
     
 
     @media only screen and (min-width: 768px) {
-      min-width: 250px;
+      min-width: 300px;
       max-width: 350px;
       min-height: 200px;
       max-height: 350px;
@@ -269,48 +270,7 @@ html {
   }
 }
 
-#submission-modal {
-  div.modal-content {
-    margin: 15% auto;
-  }
-}
 
-/* Modal Content/Box */
-.modal-content {
-  background-color: $darkBlue;
-  margin: 2% auto;
-  padding: 20px;
-  border: 1px solid $lightBlue;
-  border-radius: 10px;
-  width: 95%; /* Could be more or less, depending on screen size */
-  height: auto;
-  box-shadow: 2px 2px 10px 2px #00000077;
-
-  h4 {
-    color: $white;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    margin-bottom: 10px;
-  }
-
-  img {
-    max-width: 100%;
-    border-radius: 5px;
-  }
-
-  video {
-    max-width: 100%;
-    border-radius: 5px;
-  }
-
-  .modal-description-column {
-    padding: 5%;
-  }
-
-  @include bttnStyle;
-}
-
-/* The Close Button */
 button.close {
   border: none;
   background: transparent;
@@ -331,8 +291,8 @@ button.close:focus {
 }
 
 .body-copy {
-  font-size: 1.1em;
-  line-height: 1.8;
+  font-size: 0.9em;
+  line-height: 1.5;
   text-overflow: ellipsis;
   max-width: 500px;
   color: $white;
@@ -353,8 +313,18 @@ button.close:focus {
 footer {
   min-height: 25vh;
   align-items: center;
-  background: linear-gradient($midnightBlue, rgb(15, 59, 83));
+  background: linear-gradient($midnightBlue, rgb(11, 45, 63));
   padding-top: 30px;
+
+  .branding {
+    max-width: 90%;
+  }
+
+  // @media only screen and (max-width: 575px){
+  //   .branding{
+  //     max-width: 80%;
+  //   }
+  // }
 
   #footer-container {
     padding: 0 0 50px 0;
@@ -372,10 +342,15 @@ footer {
 
     .my-nav-link {
       text-transform: uppercase;
-      font-size: 1em;
+      font-size: 0.8em;
       letter-spacing: 0.25em;
       text-decoration: none;
       color: $lightBlue;
+      transition: 300ms;
+
+      &:hover{
+        color: $mediumBlue;
+      }
     }
   }
 }
