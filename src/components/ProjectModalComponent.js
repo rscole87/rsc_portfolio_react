@@ -3,7 +3,11 @@ import { Modal, ModalHeader, ModalBody, Container, Row, Col } from "reactstrap";
 
 function ProjectModal(props) {
   const projectImg = <img src={props.project.image} alt={props.project.name} />;
-  const projectVid = <video className="project-vid" id="active-project-video" src={props.project.video} controls loop autoplay webkit-playsinline playsinline />;
+  const projectVid = (
+    <video className="project-vid" id="active-project-video" src={props.project.video} autoplay="true" controls loop webkit-playsinline playsinline>
+      Your browser does not support the video tag.
+    </video>
+  );
 
   return (
     <Modal id="project-modal" isOpen={props.isModalOpen} toggle={props.toggleModal} size="xl">
