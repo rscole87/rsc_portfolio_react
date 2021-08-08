@@ -1,69 +1,36 @@
-import BaseApparel from '../images/project-base-apparel.png';
-import BookmarkManager from '../images/project-bookmark-manager.png'
-import IntroComponent from '../images/project-intro-component.png'
-import SmashBracket from '../images/project-smash-bracket.png'
-import TipCalculator from '../images/project-tip-calc.png'
-import TodoList from '../images/project-todo-list.png'
+import marbleTheory from '../images/project-marbletheory.png'
+import ssPrintsPlus from '../images/project-ssprintsplus.png'
+import greyAreaServices from '../images/project-greyarea.png'
 
 const PROJECTS = [
   {
     id: "project1",
-    name: "Base Apparel",
-    description: "Landing page for a new clothing retailer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: BaseApparel, 
+    name: "Marble Theory Design",
+    description: "Marble Theory Design is local graphic design and branding firm which was in need of a landing page for new clients. I was tasked with designing and building the website and chose to build it using React, custom CSS, and Bootstrap.",
+    image: marbleTheory, 
     video: "../images/videos/base_apparel.mp4",
-    github: "",
-    demo: "",
+    github: "https://github.com/rscole87/mt_website_react_v2",
+    demo: "http://www.marbletheory.com",
   },
 
   {
     id: "project2",
-    name: "Intro Component",
-    description: "Registration form for online learning platform. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    image: IntroComponent,
+    name: "SS Prints-Plus",
+    description: "SS Prints-Plus is a local small business that did not have any existing web presence. The owner was looking to have website to send prospective clients as well as recieve order inquiries via a submission form. I was commissioned to design and build this website to meet their needs. Built using HTML, CSS, and vanilla JavaScript, this website also leverages the use of Bootstrap slider and modal components.",
+    image: ssPrintsPlus,
     video: "../images/videos/intro_component.mp4",
-    github: "",
-    demo: "",
+    github: "https://github.com/rscole87/ssprintsplus_website_bootstrap",
+    demo: "http://www.ssprintsplus.com",
   },
 
   {
     id: "project3",
-    name: "Bookmark Manager",
-    description: "Website for a bookmark management platform Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image: BookmarkManager,
+    name: "Grey Area Services",
+    description: "Grey Area Services is a newly-formed local private investigative agency. After receiving design specifications from a desiginer, I proceded to build this website using React, ReactStrap, and custom CSS. ",
+    image: greyAreaServices,
     video: "../images/videos/bookmark.mp4",
-    github: "",
-    demo: "",
-  },
-
-  {
-    id: "project4",
-    name: "Smash Tourney Bracket",
-    description: "Tournament registration form and bracket tracker.",
-    image: SmashBracket,
-    video: "../images/videos/smash_bracket.mp4",
-    github: "",
-    demo: "",
-  },
-
-  {
-    id: "project5",
-    name: "To-Do List",
-    description: "Task tracking application.",
-    image: TodoList,
-    video: "../images/videos/to_do_list.mp4",
-    github: "",
-    demo: "",
-  },
-
-  {
-    id: "project6",
-    name: "Tip Calculator",
-    description: "Tip calculator for individuals and groups.",
-    image: TipCalculator,
-    video: "../images/videos/tip_calc.mp4",
-    github: "https://github.com/rscole87/tip_calculator_v1",
-    demo: "https://infallible-noether-583f03.netlify.app/",
+    github: "https://github.com/rscole87/grey_area_site",
+    demo: "http://www.greyareaservices.com",
   },
 ];
 

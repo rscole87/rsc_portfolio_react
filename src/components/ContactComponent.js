@@ -16,10 +16,10 @@ function ContactArea() {
         <div id="form-div">
           <form id="contact-form" className="row" name="contact-form" method="POST" data-netlify="true">
             <div className="col-12 col-sm-6">
-              <input className="form-control" name="f_name" type="text" placeholder="First Name" />
+              <input className="form-control" id="first-name"  name="first-name" type="text" placeholder="First Name" />
             </div>
             <div className="col-12 col-sm-6">
-              <input className="form-control" name="l_name" type="text" placeholder="Last Name" />
+              <input className="form-control" id="last-name" name="last-name" type="text" placeholder="Last Name" />
             </div>
             <div className="col-12">
               <input className="form-control" name="email" type="text" placeholder="Email" />
