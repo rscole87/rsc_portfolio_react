@@ -6,7 +6,7 @@ import ProjectModal from "./ProjectModalComponent";
 function ProjectThumb(props) {
   return ( 
     <div className="project-thumb" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000" 
-      style={{ backgroundImage: `url(${props.project.image})` }} 
+      style={{ backgroundImage: `url(${props.project.image})`, backgroundPosition: 'center'}} 
       onClick={() => props.setActiveProject(props.project)}  
       />
   )

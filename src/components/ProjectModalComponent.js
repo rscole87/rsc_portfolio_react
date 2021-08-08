@@ -2,6 +2,9 @@ import React from "react";
 import { Modal, ModalHeader, ModalBody, Container, Row, Col } from "reactstrap";
 
 function ProjectModal(props) {
+  const projectImg = <img src={props.project.image} alt={props.project.name} />;
+  const projectVid = <video className="project-vid" id="active-project-video" src={props.project.video} controls loop autoplay webkit-playsinline playsinline />;
+
   return (
     <Modal id="project-modal" isOpen={props.isModalOpen} toggle={props.toggleModal} size="xl">
       <Container>
@@ -12,12 +15,7 @@ function ProjectModal(props) {
         </ModalHeader>
         <ModalBody>
           <div className="modal-column-container">
-            <div className="modal-img-column">
-              <img src={props.project.image} alt={props.project.name} />
-              {/* <video className="project-vid" id="active-project-video" src={props.project.video} project-vid controls loop autoplay webkit-playsinline playsinline>
-              Your browser does not support the video tag.
-            </video> */}
-            </div>
+            <div className="modal-img-column">{window.innerWidth < 575 ? projectImg : projectVid}</div>
 
             <div className="modal-description-column">
               <p className="project-description" id="active-project-description" project-description>
