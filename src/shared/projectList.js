@@ -19,7 +19,7 @@ const PROJECTS = [
   {
     id: "project2",
     name: "SS Prints-Plus",
-    description: "SS Prints-Plus is a local small business that did not have any existing web presence. The owner was looking to have website to send prospective clients as well as recieve order inquiries via a submission form. I was commissioned to design and build this website to meet their needs. Built using HTML, CSS, and vanilla JavaScript, this website also leverages the use of Bootstrap slider and modal components.",
+    description: "SS Prints-Plus is a local small business that did not have any existing web presence. The owner was looking to have website to send prospective clients as well as receive order inquiries via a submission form. I was commissioned to design and build this website to meet their needs. Built using HTML, CSS, and vanilla JavaScript, this website also leverages the use of Bootstrap slider and modal components.",
     image: ssPrintsPlusImg,
     video: ssPrintsPlusVid,
     github: "https://github.com/rscole87/ssprintsplus_website_bootstrap",
@@ -29,7 +29,7 @@ const PROJECTS = [
   {
     id: "project3",
     name: "Grey Area Services",
-    description: "Grey Area Services is a local private investigative agency who commissioned me and my colleagues at Marble Theory Design to design and build a website for their new business. After receiving design specifications from my design partners, I proceded to build this website using React, Bootstrap (via the ReactStrap library), and custom CSS. ",
+    description: "Grey Area Services is a local private investigative agency who commissioned me and my colleagues at Marble Theory Design to design and build a website for their new business. After receiving design specifications from my design partners, I proceeded to build this website using React, Bootstrap (via the ReactStrap library), and custom CSS. ",
     image: greyAreaServicesImg,
     video: greyAreaServicesVid,
     github: "https://github.com/rscole87/grey_area_site",
