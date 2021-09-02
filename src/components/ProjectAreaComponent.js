@@ -55,7 +55,7 @@ class ProjectArea extends Component {
             <h3 className="font-light">Like what you see?</h3>
           </div>
           <div>
-            <p className="body-copy">Send me message or feel free to connect with me via my social media links below.</p>
+            <p className="body-copy">Send me a message, or feel free to connect with me via my social media links below.</p>
           </div>
         </div>
           

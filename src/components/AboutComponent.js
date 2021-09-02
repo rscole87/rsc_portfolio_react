@@ -28,9 +28,9 @@ function AboutMe() {
               <div>
                 <h4 className="pull-quote text-center text-sm-start">Hi, I'm Rodrick. Nice to meet you!</h4>
                 <p className="body-copy text-center text-sm-start">I'm a web developer specializing in front-end development, currently living in the Tampa Bay Area.</p>
-                <p className="body-copy text-center text-sm-start">After studying graphic design during my collegiate years, I discovered the world of web development and found it to be another challenging yet fulfilling outlet for my creativity. Web development has allowed me to successfully fuse my passion for both design and technology.</p>
-                <p className="body-copy text-center text-sm-start">My development experience has allowed me to employ the use of foundational tools such as HTML 5, CSS 3, and vanilla JavaScript as well as web and mobile development frameworks & libraries such as SASS, React.js, and React Native.</p>
-                <p className="body-copy text-center text-sm-start">Take a look through the below samples of my work and feel free to send me a message. I'd love to hear from you!</p>
+                <p className="body-copy text-center text-sm-start">After studying graphic design during my collegiate years, I discovered the world of web development and found it to be another challenging, yet fulfilling, outlet for my creativity. Web development has allowed me to successfully fuse my passion for both design and technology.</p>
+                <p className="body-copy text-center text-sm-start">My development experience has allowed me to employ the use of foundational tools such as HTML 5, CSS 3, and vanilla JavaScript, as well as web and mobile development frameworks & libraries such as SASS, React.js, and React Native.</p>
+                <p className="body-copy text-center text-sm-start">Take a look through the below samples of my work, and feel free to send me a message. I'd love to hear from you!</p>
               </div>
             </div>
           </div>

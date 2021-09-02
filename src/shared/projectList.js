@@ -9,7 +9,7 @@ const PROJECTS = [
   {
     id: "project1",
     name: "Marble Theory Design",
-    description: "Marble Theory Design is local graphic design and branding firm which was in need of a landing page for new clients. As a member of the co-founding team, I was tasked with designing and building this website. My tools of choice for this website were React, custom CSS, and Bootstrap for select built-in components and grid system.",
+    description: "Marble Theory Design is local graphic design and branding firm which was in need of a landing page for new clients. As a member of the co-founding team, I was tasked with designing and building this website. My tools of choice for this website were React, custom CSS, and Bootstrap for select built-in components and implementation of the layout grid system..",
     image: marbleTheoryImg, 
     video: marbleTheoryVid,
     github: "https://github.com/rscole87/mt_website_react_v2",
@@ -19,7 +19,7 @@ const PROJECTS = [
   {
     id: "project2",
     name: "SS Prints-Plus",
-    description: "SS Prints-Plus is a local small business that did not have any existing web presence. The owner was looking to have website to send prospective clients as well as receive order inquiries via a submission form. I was commissioned to design and build this website to meet their needs. Built using HTML, CSS, and vanilla JavaScript, this website also leverages the use of Bootstrap slider and modal components.",
+    description: "SS Prints-Plus is a local small business that did not have any existing web presence. The owner was looking to obtain a website to send prospective clients as well as receive order inquiries via a submission form. I was commissioned to design and build this website to meet their needs. Built using HTML, CSS, and vanilla JavaScript, this website also leverages the use of Bootstrap slider and modal components.",
     image: ssPrintsPlusImg,
     video: ssPrintsPlusVid,
     github: "https://github.com/rscole87/ssprintsplus_website_bootstrap",
