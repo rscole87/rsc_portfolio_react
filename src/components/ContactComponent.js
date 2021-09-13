@@ -38,7 +38,7 @@ function ContactArea() {
         <div id="contact-menu-div">
           <div className="row">
             <div className="col text-center">
-              <a href="https://www.linkedin.com/in/rodrick-coleman-46711b128/" target="_blank">
+              <a href="https://www.linkedin.com/in/rodrick-coleman/" target="_blank">
                 <img src={linkedInIcon} className="social-media-icon" alt="LinkedIn" />
               </a>
             </div>
