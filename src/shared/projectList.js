@@ -6,10 +6,22 @@ import greyAreaServicesImg from '../images/project-greyarea.png'
 import greyAreaServicesVid from "../images/videos/greyarea.mp4"
 import jobsAppImg from '../images/project-jobsapp.png'
 import jobsAppVid from "../images/videos/jobsapp.mp4"
+import countrySearchImg from '../images/project-country-search.png'
+import countrySearchIVid from "../images/videos/countrysearch.mp4"
 
 const PROJECTS = [
   {
     id: "project1",
+    name: "All Around You - Country Search Application",
+    description: "This React-based application allows users to search for countries to find statistical and geographical information about that country. It interfaces with both the REST Countries and Google Maps APIs to display the desired information for the user. I designed all UI components to be fully responsive through the use of custom CSS and flexbox. ",
+    image: countrySearchImg,
+    video: countrySearchIVid,
+    github: "https://github.com/rscole87/country-search-app",
+    demo: "https://rsc-country-search-app.netlify.app",
+  },
+
+  {
+    id: "project2",
     name: "Grey Area Services",
     description: "Grey Area Services is a local private investigative agency who commissioned me and my colleagues at Marble Theory Design to design and build a website for their new business. After receiving design specifications from my design partners, I proceeded to build this website using React, Bootstrap (via the ReactStrap library), and custom CSS. ",
     image: greyAreaServicesImg,
@@ -18,16 +30,6 @@ const PROJECTS = [
     demo: "https://www.greyareaservices.com",
   },
 
-  {
-    id: "project2",
-    name: "SS Prints-Plus", 
-    description: "SS Prints-Plus is a local small business that did not have any existing web presence. The owner was looking to obtain a website to send prospective clients as well as receive order inquiries via a submission form. I was commissioned to design and build this website to meet their needs. Built using HTML, CSS, and vanilla JavaScript, this website also leverages the use of Bootstrap slider and modal components.",
-    image: ssPrintsPlusImg,
-    video: ssPrintsPlusVid,
-    github: "https://github.com/rscole87/ssprintsplus_website_bootstrap",
-    demo: "https://www.ssprintsplus.com",
-  },
-  
   {
     id: "project3",
     name: "J.O.B.S. - Job Search Tracker",
@@ -40,6 +42,16 @@ const PROJECTS = [
 
   {
     id: "project4",
+    name: "SS Prints-Plus", 
+    description: "SS Prints-Plus is a local small business that did not have any existing web presence. The owner was looking to obtain a website to send prospective clients as well as receive order inquiries via a submission form. I was commissioned to design and build this website to meet their needs. Built using HTML, CSS, and vanilla JavaScript, this website also leverages the use of Bootstrap slider and modal components.",
+    image: ssPrintsPlusImg,
+    video: ssPrintsPlusVid,
+    github: "https://github.com/rscole87/ssprintsplus_website_bootstrap",
+    demo: "https://www.ssprintsplus.com",
+  },
+
+  {
+    id: "project5",
     name: "Marble Theory Design",
     description: "Marble Theory Design is local graphic design and branding firm which was in need of a landing page for new clients. As a member of the co-founding team, I was tasked with designing and building this website. My tools of choice for this website were React, custom CSS, and Bootstrap for select built-in components and implementation of the layout grid system..",
     image: marbleTheoryImg, 
