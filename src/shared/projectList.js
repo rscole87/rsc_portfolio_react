@@ -13,7 +13,7 @@ const PROJECTS = [
   {
     id: "project1",
     name: "Up Next - Media Queue App",
-    description: "This React-based application allows users to search for various types of entertainment media and and them to a queue for future reference. It interfaces with both the OMDB (Open Movie Database) API to display the desired information for the user. I designed all UI components to be fully responsive through the use of custom CSS and flexbox. ",
+    description: "This React-based application allows users to search for various types of entertainment media and and them to a queue for future reference. It interfaces with both the OMDB (Open Movie Database) API to display the desired information for the user and makes use of local storage for data persistence between sessions. I designed all UI components to be fully responsive through the use of custom CSS and flexbox. ",
     image: upNextImg,
     video: upNextVid,
     github: "https://github.com/rscole87/up_next_app",
