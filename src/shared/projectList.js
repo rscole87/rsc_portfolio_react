@@ -6,18 +6,18 @@ import greyAreaServicesImg from '../images/project-greyarea.png'
 import greyAreaServicesVid from "../images/videos/greyarea.mp4"
 import jobsAppImg from '../images/project-jobsapp.png'
 import jobsAppVid from "../images/videos/jobsapp.mp4"
-import countrySearchImg from '../images/project-country-search.png'
-import countrySearchIVid from "../images/videos/countrysearch.mp4"
+import upNextImg from '../images/project-up-next-app.png'
+import upNextVid from '../images/videos/upnext.mp4'
 
 const PROJECTS = [
   {
     id: "project1",
-    name: "All Around You - Country Search Application",
-    description: "This React-based application allows users to search for countries to find statistical and geographical information about that country. It interfaces with both the REST Countries and Google Maps APIs to display the desired information for the user. I designed all UI components to be fully responsive through the use of custom CSS and flexbox. ",
-    image: countrySearchImg,
-    video: countrySearchIVid,
-    github: "https://github.com/rscole87/country-search-app",
-    demo: "https://rsc-country-search-app.netlify.app",
+    name: "Up Next - Media Queue App",
+    description: "This React-based application allows users to search for various types of entertainment media and and them to a queue for future reference. It interfaces with both the OMDB (Open Movie Database) API to display the desired information for the user. I designed all UI components to be fully responsive through the use of custom CSS and flexbox. ",
+    image: upNextImg,
+    video: upNextVid,
+    github: "https://github.com/rscole87/up_next_app",
+    demo: "https://rsc-up-next-app.netlify.app",
   },
 
   {
