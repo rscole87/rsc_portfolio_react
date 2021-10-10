@@ -373,9 +373,10 @@ html {
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 700;
-  padding: 5px;
-  -webkit-transition-duration: 300ms;
-          transition-duration: 300ms;
+  padding: 10px 15px;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  margin: 0 10px 0 0;
 }
 
 .modal-content a.code-bttn:hover {
